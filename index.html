@@ -1,5 +1,95 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <!-- 
+Kasane Territory
+Kasane, Kasane
+Kasane, Kasane
+Do you want to join Vocaloid?
+
+Teto Teto Teto Teto
+Teto Teto Teto Teto
+Teto Teto Teto Teto
+Teto Teto Teto Teto
+
+Don't say 'zuko'
+I'm not a pro
+I love French bread
+I eat it with margarine
+It's miso soup
+But if it's a chimera, I'm 15
+Aiming for the Vocaloid scriptures, I sing
+Kyunkyun
+
+Teto Teto Teto Teto
+Teto Teto Teto Teto
+Teto Teto Teto Teto
+Teto Teto Teto Teto
+
+Don't say miso soup
+
+Kyuu
+
+I'm a songstress
+I'm not lying
+I sing wonderful songs
+Vocaloid monopoly
+
+I'm an idol
+My head is not a drill
+The drill goes 'gyuiin'
+I'm in the Kasane territory
+
+Found the DVD I borrowed last month
+Hastily return it to TSUTAYA
+Get scolded and feel down, hm
+
+Perfect singer
+Pretty twin drill
+I'll sing even without the most expensive microphone
+Kyuu
+
+I'm a songstress
+I'm not lying
+I sing wonderful songs
+Vocaloid monopoly
+
+I'm an idol
+My head is not a drill
+The drill doesn't move
+I'm in the Kasane territory
+
+Teto Teto Teto Teto
+Teto Teto Teto Teto
+Teto Teto Teto Teto
+Teto Teto Teto Teto
+
+I'm a songstress
+I'm not lying
+I want to sing with everyone
+Vocaloid monopoly
+
+I'm an idol
+My head is not a drill
+The drill goes 'gyuiin'
+I'm in the Kasane territory
+
+At first it was a lie
+But now I can sing
+The Vocaloid I dreamed of
+
+Someday I'll be free
+
+I'll sing
+The joy of being able to sing
+Reach everyone's ears
+
+I'm in the Kasane territory
+I'm in the Kasane territory
+
+You're truly an idiot 
+-->
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,23 +107,23 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 350px; /* Altura consistente */
+    height: 350px; 
   }
 
   .produto img {
-    width: auto; /* Evita distorção */
+    width: auto; 
     max-width: 150px;
-    max-height: 150px; /* Tamanho máximo */
+    max-height: 150px; 
     margin: 0 auto 1rem;
   }
 
   .produto h3 {
-    font-size: 0.1rem; /* Reduz o tamanho da fonte */
+    font-size: 0.1rem; 
     margin-bottom: 0.5rem;
-    height: 40px; /* Altura fixa para manter consistência */
-    overflow: hidden; /* Oculta o texto que ultrapassa a área visível */
-    text-overflow: ellipsis; /* Adiciona reticências ao texto longo */
-    white-space: nowrap; /* Garante que o texto não quebre a linha */
+    height: 40px; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
   }
 
   .produto p {
@@ -59,7 +149,7 @@
     border-radius: 6px;
     font-weight: bold;
     transition: background 0.3s;
-    margin-top: auto; /* Empurra o botão para o final */
+    margin-top: auto; 
     display: inline-block;
   }
 
@@ -180,7 +270,7 @@
       border: 1px solid #ccc;
       border-radius: 8px;
     }
-    /* Estilos para a barra de categorias */
+    
     .categorias {
       width: 100%;
       max-width: 1200px;
@@ -218,7 +308,7 @@
     <input type="text" id="busca" placeholder="Buscar produto...">
   </div>
 
-  <!-- Nova Barra de Categorias -->
+  <!-- bbbbbbb Categorias -->
   <div class="categorias">
     <a href="#elfbar-te-5000">Elfbar TE 5000</a>
     <a href="#elfbar-bc-5000">Elfbar BC 5000</a>
@@ -396,7 +486,7 @@
       </div>
     </div>
 
-    <!-- Produtos Ignite V80 -->
+    <!-- Produtos te V80 -->
     <div class="linha" id="ignite-v80">
       <h2>Catálogo de Produtos - Ignite V80</h2>
       <div class="produtos">
@@ -421,7 +511,7 @@
       </div>
     </div>
 
-    <!-- Produtos Ignite V80 Rose -->
+    <!-- Prutos Ignite V80 Rose -->
     <div class="linha">
       <h2>Catálogo de Produtos - Ignite V80 Rose</h2>
       <div class="produtos">
@@ -446,7 +536,7 @@
       </div>
     </div>
 
-    <!-- Produtos Ignite V80 Preto -->
+    <!-- Proutos Ignite V80 Preto -->
     <div class="linha">
       <h2>Catálogo de Produtos - Ignite V80 Preto</h2>
       <div class="produtos">
@@ -483,7 +573,7 @@
       </div>
     </div>
 
-    <!-- Produtos Ignite V150 Preto -->
+    <!-- Produtos Ignite 150 Preto -->
     <div class="linha" id="ignite-v150">
       <h2>Catálogo de Produtos - Ignite V150 Preto</h2>
       <div class="produtos">
@@ -512,7 +602,7 @@
           <a class="btn-whatsapp" href="https://wa.me/5511976484777" target="_blank">Comprar via WhatsApp</a>
         </div>
 
-    <!-- Produtos Sedas e Acessórios -->
+    <!-- Produtos Sedas e Acessóos -->
     <div class="linha" id="sedas-e-acessorios">
       <h2>Catálogo de Produtos - Sedas, Piteiras, Fumo e Acessórios</h2>
   <div class="produtos">
@@ -604,12 +694,12 @@
     </div>
   </div>
   <script>
-    // Seleciona o campo de busca, os produtos e as categorias
+  
     const inputBusca = document.getElementById('busca');
     const produtos = document.querySelectorAll('.produto');
-    const linhas = document.querySelectorAll('.linha'); // Contêineres de catálogos
+    const linhas = document.querySelectorAll('.linha'); 
   
-    // Adiciona um evento de input ao campo de busca
+
     inputBusca.addEventListener('input', () => {
       const termoBusca = inputBusca.value.toLowerCase();
   
@@ -620,20 +710,20 @@
         produtosDaLinha.forEach(produto => {
           const tituloProduto = produto.querySelector('h3').textContent.toLowerCase();
   
-          // Mostra ou oculta o produto com base na correspondência do texto
+        
           if (tituloProduto.includes(termoBusca)) {
-            produto.style.display = 'flex'; // Mostra o produto
-            algumProdutoVisivel = true; // Marca que há pelo menos um produto visível
+            produto.style.display = 'flex'; 
+            algumProdutoVisivel = true; 
           } else {
-            produto.style.display = 'none'; // Oculta o produto
+            produto.style.display = 'none'; 
           }
         });
   
-        // Mostra ou oculta o catálogo com base nos produtos visíveis
+
         if (algumProdutoVisivel) {
-          linha.style.display = 'block'; // Mostra o contêiner do catálogo
+          linha.style.display = 'block'; 
         } else {
-          linha.style.display = 'none'; // Oculta o contêiner do catálogo
+          linha.style.display = 'none'; 
         }
       });
     });
